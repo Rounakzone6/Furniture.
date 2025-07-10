@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ShopContext } from "../../context/shopContext";
+import { ShopContext } from "../../context/ShopContext";
 
 const Logout = () => {
   const { token, setToken, navigate } = useContext(ShopContext);

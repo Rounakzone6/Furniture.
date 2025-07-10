@@ -9,7 +9,7 @@ import {
 import { faHeart as fasHeart } from "@fortawesome/free-solid-svg-icons";
 import Path from "../components/Path";
 import Service from "../components/Service";
-import { ShopContext } from "../context/shopContext";
+import { ShopContext } from "../context/ShopContext";
 
 const Collection = () => {
   const [search, showSearch] = useState(false);

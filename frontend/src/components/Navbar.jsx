@@ -21,7 +21,7 @@ import { socialMedia } from "../assets";
 import NewsLetter from "./NewsLetter";
 import FurnitureHover from "./FurnitureHover";
 import CategoriesHover from "./CategoriesHover";
-import { ShopContext } from "../context/shopContext";
+import { ShopContext } from "../context/ShopContext";
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);

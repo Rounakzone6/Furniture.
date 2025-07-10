@@ -6,9 +6,9 @@ import { faF } from "@fortawesome/free-solid-svg-icons";
 import { faGoogle } from "@fortawesome/free-brands-svg-icons";
 import Path from "../components/Path";
 import Service from "../components/Service";
-import { ShopContext } from "../context/shopContext";
 import { toast } from "react-toastify";
 import axios from "axios";
+import { ShopContext } from "../context/ShopContext";
 
 const Login = () => {
   const [currentState, setCurrentState] = useState("Login");
